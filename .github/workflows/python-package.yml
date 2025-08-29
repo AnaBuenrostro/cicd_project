@@ -61,6 +61,6 @@ jobs:
         allure_report: allure-report
         gh_pages: false
     - name: Upload Pages artifact
-          uses: actions/upload-pages-artifact@v3
-          with:
-            path: allure-report
+      uses: actions/upload-pages-artifact@v3
+      with:
+          path: allure-report
